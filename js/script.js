@@ -18,7 +18,7 @@ function loadData() {
     $greeting.text('So, you want to live at ' + address + '?');
 
     // load streetview
-    var streetviewUrl = 'http://maps.googleapis.com/maps/api/streetview?size=600x400&location=' + address + '';
+    var streetviewUrl = 'https://maps.googleapis.com/maps/api/streetview?location=' + address + '&size=600x300&key=AIzaSyCrDB76TKDys1WqrVlgYYOqZRU5_77PGdg';
     $body.append('<img class="bgimg" src="' + streetviewUrl + '">');
 
 
