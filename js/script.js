@@ -26,7 +26,7 @@ function loadData() {
 
     // load nytimes
     // obviously, replace all the "X"s with your own API key
-    var nytimesUrl = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${cityStr}&api-key=hnBAPj1FFGUSX5ULP7XmAzyZmoAbiwgA`;
+    var nytimesUrl = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${cityStr}&api-key=xxxxxxxxxxxxxxxxxxxxxxxxxxxx`;
     $.getJSON(nytimesUrl, function(data){
 
         $nytHeaderElem.text('New York Times Articles About ' + cityStr);
