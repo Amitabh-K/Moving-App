@@ -2,10 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Moving Companion</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Moving Companion</title>
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" media="screen">
+
+    <!-- Bootstrap CSS CDN  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+  <!-- Style to fix the issue of text extending past card length -->
 </head>
 <body>
+
+        <div class=" mastheadr">
+                <div class="sticky-top">      
+                   <div class="ngroup">
+                       <nav  class=" p-3 mb-0  bg-info text-white text-center h1 style:">Amitabh Kumar</nav>
+                   <div class="xbox"> 
+                       <nav class="p-2 bg-light mb-0 ">
+                         <ul class=" list nav nav-tabs justify-content-center">
+                             <li class="nav-item">
+                                 <a class="nav-link active" href="./index.html">Moving App</a>
+                                 </li>
+                             <li class="nav-item">
+                               <a class="nav-link text-dark" href="./About.html">About</a>
+                               </li>
+                               <li class="nav-item">
+                               <a class="nav-link text-dark" href="./portfolio.html">Portfolio</a>
+                               </li>
+                               <li class="nav-item">
+                               <a class="nav-link text-dark" href="./contact.html">Contact</a>
+                             </li>
+                         </ul>          
+                      </nav>
+                     </div>   
+                   </div>
+                </div> 
+               </div>
+        <div class="container">
 
     <form id="form-container" class="form-container">
         <label for="street">Street: </label><input type="text" id="street" value="">
@@ -26,10 +65,17 @@
 
     <div class="nytimes-container">
         <h3 id="nytimes-header">New York Times Articles</h3>
-        <ul id="nytimes-articles" class="article-list">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</div>
+        <ul id="nytimes-articles" class="article-list">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!</ul>
     </div>
 
-    <script src="./js/libs/jquery.min.js"></script>
-    <script src="./js/script.js"></script>
+    </div> <!-- page container -->
+
+    
+    
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Code to the JavaScript File -->
+  <script src="./js/script.js"></script>    
 </body>
 </html>
