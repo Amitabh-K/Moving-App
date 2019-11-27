@@ -18,7 +18,7 @@ function loadData() {
     $greeting.text('So, you want to live at ' + address + '?');
 
     // load streetview
-    var streetviewUrl = 'https://maps.googleapis.com/maps/api/streetview?location=' + address + '&size=600x300&key=AIzaSyCrDB76TKDys1WqrVlgYYOqZRU5_77PGdg';
+    var streetviewUrl = 'https://maps.googleapis.com/maps/api/streetview?location=' + address + 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
     $body.append('<img class="bgimg" src="' + streetviewUrl + '">');
 
 
@@ -26,7 +26,7 @@ function loadData() {
 
     // load nytimes
     // obviously, replace all the "X"s with your own API key
-    var nytimesUrl = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${cityStr}&api-key=xxxxxxxxxxxxxxxxxxxxxxxxxxxx`;
+    var nytimesUrl = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${cityStr}&api-key=hnBAPj1FFGUSX5ULP7XmAzyZmoAbiwgA`;
     $.getJSON(nytimesUrl, function(data){
 
         $nytHeaderElem.text('New York Times Articles About ' + cityStr);
