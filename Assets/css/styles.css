@@ -1,7 +1,9 @@
 /* Common Styling of All Pages */
 
+
+
  body {    
-    background-image: url(../images/herringbone.png);
+    
     border: darkgrey 1px solid;
     transform: scale();
     
